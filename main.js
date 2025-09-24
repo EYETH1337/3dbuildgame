@@ -1,4 +1,5 @@
-import * as THREE from 'three';
+// Using global THREE object from CDN
+// import * as THREE from 'three';
 import { PlayerController, ThirdPersonCameraController } from './rosieControls.js';
 import { World } from './world.js';
 import { Player } from './player.js';

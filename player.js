@@ -1,5 +1,6 @@
-import * as THREE from 'three';
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+// Using global THREE object from CDN
+// import * as THREE from 'three';
+// import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 
 export class Player {
   constructor(scene) {
@@ -13,7 +14,7 @@ export class Player {
   }
 
   async init() {
-    const loader = new GLTFLoader();
+    const loader = new THREE.GLTFLoader();
     
     try {
       const gltf = await loader.loadAsync('https://play.rosebud.ai/assets/Cube Guy Character.glb?2r8Z');
