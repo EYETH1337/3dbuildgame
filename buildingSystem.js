@@ -1,4 +1,5 @@
-import * as THREE from 'three';
+// Using global THREE object from CDN
+// import * as THREE from 'three';
 
 export class BuildingSystem {
   constructor(scene) {
